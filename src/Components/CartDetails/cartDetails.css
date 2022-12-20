@@ -1,0 +1,159 @@
+.cart-details {
+  min-width: 100%;
+  height: 81px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  margin: 67px 25% 0 25%;
+}
+
+.layout-cart {
+  display: flex;
+  justify-content: space-between;
+  margin: 11px 14px 13px 25px;
+}
+
+.layout-right {
+  display: flex;
+}
+
+.title-cart {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--text-dark);
+}
+
+.current-product {
+  margin-right: 28px;
+}
+
+.count-pruduct {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  width: 84px;
+  height: 33px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.min {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 24px;
+  color: #969696;
+  margin-left: 10px;
+}
+
+.count {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.plus {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0c9a00;
+  margin-right: 10px;
+}
+
+.subtotal .title-cart:nth-child(2) {
+  margin-top: 13px;
+}
+
+.submit-cart {
+  width: 50px;
+  height: 50px;
+  background: #ffea9e;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon2 {
+  color: var(--color-secondry);
+  font-size: 26px;
+}
+
+.title-submit {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .cart-details {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    background: #dadada;
+    height: 53px;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+
+  .title-cart {
+    display: none;
+  }
+
+  .layout-cart {
+    margin: 0;
+    padding: 7px;
+  }
+
+  .subtotal {
+    display: none;
+  }
+
+  .count-pruduct {
+    margin: 0 10px 0 0;
+    height: 40px;
+  }
+
+  .current-product {
+    margin: 0;
+  }
+
+  .submit-cart {
+    width: 75%;
+    height: 40px;
+    background: #ffea9e;
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 11px;
+  }
+
+  .icon2 {
+    font-size: 24px;
+  }
+
+  .title-submit {
+    display: contents;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+  }
+}

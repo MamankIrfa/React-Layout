@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  background-color: var(--background);
+  min-height: 100vh;
+}
+
+.modal {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    min-width: 576px;
+  }
+
+}

@@ -1,0 +1,23 @@
+.menu-page {
+  margin: 77px 15% 0 18%;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-page {
+    margin: 77px 5% 0 7%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .menu-page {
+    margin: 77px 5% 0 7%;
+  }
+
+  .layout-product {
+    width: 70%;
+  }
+
+  .modal {
+    display: contents;
+  }
+}
